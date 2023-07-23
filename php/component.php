@@ -14,9 +14,10 @@ h5{
 
 <?php
 
-function component($productname,$productprice,$productimg,$productid)
+function component($productname,$productprice,$productimg,$productid,$quantity)
 {
-    $element=<<<EOD
+    if($quantity>0){
+        $element=<<<EOD
     <form style="display:inline-block;" method="post">
     <table style=" 
     border-radius: 10px;
@@ -51,6 +52,43 @@ function component($productname,$productprice,$productimg,$productid)
     </form>
     EOD;
     echo $element;
+}
+else{
+    $element=<<<EOD
+    <form style="display:inline-block;" method="post">
+    <table style=" 
+    border-radius: 10px;
+    width:250px;
+    height:350px;
+    margin:50px;
+    background-color:#c68c53">
+            <tr>
+                <th style="padding: 10px;"><img src="$productimg" style="width:250px;
+                height:270px;opacity:0.3;
+                
+            "></th>
+            </tr>
+            <tr><th style="text-align:center;
+            font-size:20px;">$productname</th></tr>
+            <tr><th style="text-align:center;
+            font-size:20px;">&#8377; $productprice /-</th></tr>
+            <tr><th>
+                <center>
+                <h6 style="height: 30px;
+                border-radius:10px;
+                padding:5px;
+                background-color:#ac7339;
+                margin:0px;
+                font-size:15px;">OUT OF STOCK</h6>
+                </center>
+                <input type='hidden' name='product_id' value='$productid'>
+            </th></tr>
+        </table>
+    </form>
+    EOD;
+    echo $element;
+}
+    
 }
 
 function cartElement($productimg, $productname, $productprice, $productid){

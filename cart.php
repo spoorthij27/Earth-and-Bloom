@@ -19,7 +19,6 @@ if (isset($_POST['remove'])){
   }
 }
 
-
 ?>
 
 <!doctype html>
