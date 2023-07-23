@@ -179,28 +179,26 @@ width: 100%;
   </div>
   <div class="images">
     <div class="img">
-        <img src="terrace/terracegarden6.jpg" height="250px" width="300px">
-      </div>
-    <div class="img">
-      <img src="terrace/terracegarden1.jpg" height="250px" width="300px">
+        <a href="terrace1.html"><img src="terrace/terracegarden1.jpg" height="250px" width="300px"></a>
     </div>
     <div class="img">
-      <img src="terrace/terracegarden2.jpg" height="250px" width="300px">
-    </div>
-    
-    <div class="img">
-      <img src="terrace/terracegarden3.jpg" height="250px" width="300px">
+      <a href="terrace2.html"><img src="terrace/terracegarden2.jpg" height="250px" width="300px"></a>
     </div>
     <div class="img">
-      <img src="terrace/terracegarden4.jpg" height="250px" width="300px">
+      <a href="terrace3.html"><img src="terrace/terracegarden3.webp" height="250px" width="300px"></a>
     </div>
     <div class="img">
-      <img src="terrace/terracegarden5.jpg" height="250px" width="300px">
+      <a href="terrace4.html"><img src="terrace/terracegarden4.jpg" height="250px" width="300px"></a>
     </div>
     <div class="img">
-      <img src="terrace/terracegarden0.jpg" height="250px" width="300px">
+      <a href="terrace5.html"><img src="terrace/terracegarden5.jpg" height="250px" width="300px"></a>
     </div>
-    
+    <div class="img">
+      <a href="terrace6.html"><img src="terrace/terracegarden6.jpg" height="250px" width="300px"></a>
+    </div>
+    <div class="img">
+      <a href="terrace7.html"><img src="terrace/terracegarden7.jpg" height="250px" width="300px"></a>
+    </div> 
   </div>
   <br>
    <div>
