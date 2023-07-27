@@ -30,6 +30,11 @@
 </head>
 
 <body>
+    <?php
+    if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
+        include 'appoint_connect.php';
+    }
+    ?>
     <div class="success-message">
         <h1>Appointment Booked Successfully!</h1>
         <p>Thank you for booking an appointment with us.</p>
