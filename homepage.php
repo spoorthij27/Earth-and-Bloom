@@ -25,7 +25,7 @@
                 </ul>
             </div>
           
-            <div class="content">
+            <div class="content" style="top:50%;">
                 <h1>Earth & Bloom</h1><br>
                 <p>Bring nature to your Home!</p>
             <div>
