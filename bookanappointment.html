@@ -11,13 +11,17 @@
     <style>
         body {
             font-family: "Roboto", Arial, sans-serif;
-            background-color: #f0f0f0;
+            width: 100%;
+            height: 100%;
+            background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpeg);
+            background-size: cover;
+            background-position: center;
             text-align: center;
             padding-top: 30px;
         }
 
         h1 {
-            color: #333333;
+            color:white;
         }
 
         .container {
@@ -168,7 +172,9 @@
             </fieldset>
             <div class="btns">
                 <input type="text" name="_gotcha" value="" style="display:none;">
-                <input type="submit" value="Submit request">
+                <form method="POST" action="appointmentsucces.html">
+                    <input type="submit" value="Submit request"> 
+                </form> 
             </div>
         </form>
     </div>
