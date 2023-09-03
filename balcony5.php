@@ -144,21 +144,20 @@
     <div class="banner">
         <pre class="logo2">Earth & Bloom</pre>
         <div class="navbar">
-            <a href="homepage.html"><img src="logo.png" class="logo"></a>
-            <img src="sgn.png" class="lgn">
-            <a href="signup.html" style="color:white; font-size: 15px;">Signup</a>
-            <img src="lgn1.png" class="wsl">
-            <a href="login.html" style="color:white; font-size: 15px;">Login</a>
-            <img src="spc.png" class="spc">
-            <a href="cart.html" style="color:white; font-size: 15px;">Cart</a>
-            <ul>
-                <li><a href="garden catalogue.html">Our Services</a></li>
-                <li><a href="shop.html">Shop </a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </div>
-        <input type="text" placeholder="Search..">
+        <a href="homepage.php"><img src="logo.png" class="logo"></a>
+        <ul>
+                    <ul style="float:right;">
+                        <li><a href="signup.php"><i class="fa fa-sign-in"></i> Signup</a></li>
+                        <li><a href="login.php" ><i class="fa fa-user"></i> Login</a></li>
+                        <li><a href="cart.php" ><i class="fas fa-shopping-cart"></i> Cart</a></li>
+                    </ul>
+                     <br /><br />
+                    <li><a href="garden catalogue.php">Our Services</a></li>
+                    <li><a href="shop.php">Shop </a></li>
+                    <li><a href="aboutus.php">About Us</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+        </ul>
+    </div>
         <div class="a">
             <h2 style="color:white;font-size:30px;">MONEY PLANTS</h2>
         </div>
