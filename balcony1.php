@@ -30,27 +30,6 @@
     width: 120px;
     cursor: pointer;
     }
-    .lgn{
-    width: 40px;
-    position:right;
-    padding-left:540px;
-    padding-bottom:10px;
-    cursor: pointer;
-    }
-    .wsl{
-    width: 40px;
-    position:relative;
-    padding-left:0px;
-    padding-bottom:10px;
-    cursor: pointer;
-    }
-    .spc{
-    width: 50px;
-    position:right;
-    padding-left:0px;
-    padding-bottom:10px;
-    cursor: pointer;
-    }
     .navbar{
     width: 100%;
     font-size: 15px;
